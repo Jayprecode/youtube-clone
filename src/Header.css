@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  height: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #202020;
+}
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left:20px;
+}
+.header__input {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 105px;
+  width: 48%;
+  height: 30px;
+  border: 1px solid rgba(194, 194, 194, 0.2);
+  border-radius: 2px;
+  background-color:#121212;
+}
+
+.header__input > input {
+    flex: 1;
+    border:none;
+    height: 30px;
+    color: #eeeeee;
+    background-color:#121212;
+}
+.header__input > input::placeholder {
+    margin-left: 10px;
+    font-family: 'Luna';
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header__mic {
+    position: relative;
+    right: 0px;
+}
+.header__mic > .MuiIconButton-root {
+    color: white;
+}
+.header__icons {
+    display: flex;
+    align-items:center;
+}
+.header__icons > .MuiIconButton-root {
+    color: white;
+    margin-right: 6px;
+}
+
+
