@@ -3,10 +3,12 @@ import SidebarRow from "./SidebarRow";
 import "./Sidebar.css";
 import HomeIcon from "@material-ui/icons/Home";
 import { ExpandMoreOutlined,Whatshot, Subscriptions, History, OndemandVideo, ThumbUpAltOutlined, VideoLibrary, WatchLater, YouTube, VideogameAsset, WifiTethering, Settings, Flag, Help, Feedback } from "@material-ui/icons";
+import { Link } from "@material-ui/core";
 
 
 
 function Sidebar() {
+        
     return (
       <div className="sidebar">
         <SidebarRow selected Icon={HomeIcon} title="Home" />
@@ -31,26 +33,22 @@ function Sidebar() {
         <SidebarRow Icon={Feedback} title="Send feedback" />
         <hr />
         <div className="sidebar__footer1">
-          <p href="#">About</p>
-          <p href="#">Press</p>
-          <p href="#">Copyright</p>
-
-          <p href="#">Contact us</p>
-          <p href="#">Creator</p>
-
-          <p href="#">Advertise</p>
-          <p href="#">Developers</p>
+          <Link>About</Link>
+          <Link>Press</Link>
+          <Link>Copyright</Link>
+          <Link>Contact us</Link>
+          <Link>Creator</Link>
+          <Link>Advertise</Link>
+          <Link>Developers</Link>
         </div>
         <div className="side__footer2">
-          <ul>
-            <p href="#">Terms</p>
-            <p href="#">Privacy</p>
-            <p href="#">Policy & Safety</p>
-            <p href="#">How YouTube works</p>
-            <p href="#">Test new features</p>
-          </ul>
+          <Link>Terms</Link>
+          <Link>Privacy</Link>
+          <Link>Policy & Safety</Link>
+          <Link>How YouTube works</Link>
+          <Link>Test new features</Link>
         </div>
-        <span>2021 Google LLC</span>
+        <span> 2021 Google LLC</span>
       </div>
     );
 }

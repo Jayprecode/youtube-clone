@@ -31,15 +31,18 @@
     margin-bottom: 8px;
 }
 .sidebar__footer1 {
-    display: grid;
-    width: 5px !important;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
 }
-.sidebar__footer1 > p {
+.sidebar__footer1 > li {
     color: #838383;
     font-size: 13px;
     font-family: Roboto;
     font-weight: 600;
     padding: 5px;
+    list-style: none;
 }
 .side__footer2 {
     display: flex;
