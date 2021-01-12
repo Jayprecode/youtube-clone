@@ -5,17 +5,20 @@ import SearchIcon from "@material-ui/icons/Search";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationIcon from "@material-ui/icons/Notifications";
-import { Avatar, IconButton } from "@material-ui/core";
+import { Avatar } from "@material-ui/core";
 import MicIcon from "@material-ui/icons/Mic";
 import { makeStyles } from "@material-ui/core/styles";
+
+
+
 
 function Header() {
   const useStyles = makeStyles({
     small: {
-      marginRight: "15px",
+      marginRight: "32px",
       marginLeft: "15px",
-      height: "35px",
-      width: "35px",
+      height: "32px",
+      width: "32px",
     },
     inputButton: {
       width: "20px",
@@ -28,35 +31,60 @@ function Header() {
       marginTop: "-1px",
       paddingLeft: "25px",
       paddingRight: "25px",
+    },
+    menu: {
+      position: "relative",
+      marginLeft: "10px",
+      color: "white",
+      "@media(max-width: 664px)": {
+        marginLeft: "6px",
+        marginRight: "8px",
       },
-      menu: {
-        position: "relative",
-        marginLeft: "10px",
-        color: "white",
-    }
+    },
+    mi: {
+      color: "white",
+      marginRight: "14%",
+      marginLeft: "15px",
+      "@media(max-width: 664px)": {
+        marginRight: "0px",
+        marginLeft: "-30px",
+      },
+    },
+    vci: {
+      color: "white",
+      marginRight: "10px",
+    },
+    ai: {
+      color: "white",
+      marginRight: "10px",
+      marginLeft: "16px",
+    },
+    ni: {
+      color: "white",
+      marginRight: "13px",
+      marginLeft: "15px",
+    },
   });
   const classes = useStyles();
 
   return (
     <div className="header">
-      <div className="heder__left">
+      <div className="header__left">
         <MenuIcon className={classes.menu} />
         <svg
           viewBox="0 0 200 60"
           preserveAspectRatio="xMidYMid meet"
           focusable="false"
-          className="style-scope ytd-topbar-logo-renderer"
+          className="logo"
           style={{
             pointerEvents: "none",
             display: "block",
             width: "82px",
             height: "100px",
             objectFit: "contain",
-            position: "relative",
-            left: "25px",
-            // marginLeft: "20px",
-            // marginBottom: "30px",
-          }}>
+            marginLeft: "25px",
+          }}
+        >
           <g
             viewBox="0 0 200 60"
             preserveAspectRatio="xMidYMid meet"
@@ -121,27 +149,17 @@ function Header() {
         <span className="cntry">NG</span>
       </div>
 
-      <div className="header__input">
-        <input placeholder="Search" type="text" />
-        <SearchIcon className={classes.inputButton} />
+      <div className="header__inputs">
+        <div className="header__input">
+          <input placeholder="Search" type="text" />
+          <SearchIcon className={classes.inputButton} />
+        </div>
+        <MicIcon className={classes.mi} />
       </div>
-      <div className="header__mic">
-        <IconButton>
-          <MicIcon />
-        </IconButton>
-      </div>
-
       <div className="header__icons">
-        <IconButton>
-          <VideoCallIcon />
-        </IconButton>
-        <IconButton>
-          <AppsIcon />
-        </IconButton>
-        <IconButton>
-          <NotificationIcon />
-        </IconButton>
-
+        <VideoCallIcon className={classes.vci} />
+        <AppsIcon className={classes.ai} />
+        <NotificationIcon className={classes.ni} />
         <Avatar className={classes.small} />
       </div>
     </div>
