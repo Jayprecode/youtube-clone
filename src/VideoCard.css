@@ -18,14 +18,22 @@
     margin-left: 15px;
 }
 .videoCard__text > h4 {
+    font-family: Roboto;
     font-size: 14px;
     margin-bottom: 5px;
+    color: #fff;
 }
 .videoCard__text > p {
+    font-family: Roboto;
     font-size: 14px;
-    color: gray;
+    color: #b5b4b4;
 }
-.video__avatar {
+.videoCard__text > p > .dot {
+    font-size: 5px !important;
+    position: relative;
+    bottom: 3px;
+}
+.videoCard__avatar {
     height: 30px !important;
     width: 30px !important;
 }
