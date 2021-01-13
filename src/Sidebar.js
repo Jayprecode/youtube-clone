@@ -2,7 +2,7 @@ import React from "react";
 import SidebarRow from "./SidebarRow";
 import "./Sidebar.css";
 import HomeIcon from "@material-ui/icons/Home";
-import { ExpandMoreOutlined,Whatshot, Subscriptions, History, OndemandVideo, ThumbUpAltOutlined, VideoLibrary, WatchLater, YouTube, VideogameAsset, WifiTethering, Settings, Flag, Help, Feedback } from "@material-ui/icons";
+import { ExpandMoreOutlined, Whatshot, Subscriptions, History, OndemandVideo, ThumbUpAltOutlined, VideoLibrary, WatchLater, YouTube, VideogameAsset, WifiTethering, Settings, Flag, Help, Feedback } from "@material-ui/icons";
 import { Link } from "@material-ui/core";
 
 
@@ -33,22 +33,26 @@ function Sidebar() {
         <SidebarRow Icon={Feedback} title="Send feedback" />
         <hr />
         <div className="sidebar__footer1">
-          <Link>About</Link>
-          <Link>Press</Link>
-          <Link>Copyright</Link>
-          <Link>Contact us</Link>
-          <Link>Creator</Link>
-          <Link>Advertise</Link>
-          <Link>Developers</Link>
+          <Link className="link">About</Link>
+          <Link className="link">Press</Link>
+          <Link className="link">Copyright</Link>
+          <br />
+          <Link className="link">Contact</Link>
+          <Link className="link">Creator us</Link>
+          <br />
+          <Link className="link">Advertise</Link>
+          <Link className="link">Developers</Link>
         </div>
-        <div className="side__footer2">
-          <Link>Terms</Link>
-          <Link>Privacy</Link>
-          <Link>Policy & Safety</Link>
-          <Link>How YouTube works</Link>
-          <Link>Test new features</Link>
+        <div className="sidebar__footer2">
+          <Link className="link">Terms</Link>
+          <Link className="link">Privacy</Link>
+          <Link className="link">Policy & Safety</Link>
+          <br />
+          <Link className="link">How YouTube works</Link>
+          <br />
+          <Link className="link">Test new features</Link>
         </div>
-        <span> 2021 Google LLC</span>
+        <span className="copyright">© 2021 Google LLC</span>
       </div>
     );
 }

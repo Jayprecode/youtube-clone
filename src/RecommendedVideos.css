@@ -1,3 +1,9 @@
 .RecommendedVideos {
     flex: 0.82;
+    background-color: #181818;
+    padding-bottom: 0;
+}
+.RecommendedVideos > h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
 }
