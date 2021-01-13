@@ -6,7 +6,6 @@
     background-color: #222222;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    height: 100%;
 }
 .sidebar::-webkit-scrollbar {
     width: 12px;
