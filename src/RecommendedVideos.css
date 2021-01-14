@@ -1,7 +1,11 @@
 .recommendedVideos {
-    flex: 0.82;
+    flex: 1;
+    flex-direction: column;
     background-color: #181818;
     padding-bottom: 0;
+    padding-top: 80px;
+    padding-left: 25px;
+    height: 100%;
 }
 .recommendedVideos > h2 {
     margin-left: 5px;

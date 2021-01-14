@@ -12,7 +12,7 @@ function RecommendedVideos() {
             timestamp="1 year ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/jPdWx862o9U/mqdefault_6s.webp?du=3000&sqp=CJq--v8F&rs=AOn4CLAJrZbWIT0JsXLmBZxf4FHsfcZubw"
+            image="https://i.ytimg.com/an_webp/jPdWx862o9U/mqdefault_6s.webp?du=3000&sqp=CNiK_f8F&rs=AOn4CLAHL0ndGAjjz9M8sNEzvG9YuTSXaQ"
           />
           <VideoCard
             title="Sticky Navigation Bar On Responsive Scroll with Hover ..."
@@ -20,7 +20,7 @@ function RecommendedVideos() {
             timestamp="3 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/Altx6NzYfhI/mqdefault_6s.webp?du=3000&sqp=CKjG-v8F&rs=AOn4CLA3rsCuZCdobhQYgMWBgdkq3I9Pfg"
+            image="https://i.ytimg.com/an_webp/Altx6NzYfhI/mqdefault_6s.webp?du=3000&sqp=CPSR_f8F&rs=AOn4CLB8hREEBoApFtmMlpBBoMTu3sDrKQ"
           />
           <VideoCard
             title="How Advanced Animated Navigation Menu Bar Are..."
@@ -28,7 +28,7 @@ function RecommendedVideos() {
             timestamp="6 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/b_yDLHuxu-s/mqdefault_6s.webp?du=3000&sqp=CI29-v8F&rs=AOn4CLAXKQNzKQC6HRB_NOjyQrxYHKdjNA"
+            image="https://i.ytimg.com/an_webp/b_yDLHuxu-s/mqdefault_6s.webp?du=3000&sqp=CO-e_f8F&rs=AOn4CLDtFLXnLJLMA9ONCjGlTO1KTqSmFA"
           />
           <VideoCard
             title="How To Make Drop Down Menu Using HTML, ..."
@@ -36,7 +36,7 @@ function RecommendedVideos() {
             timestamp="7 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/F27-PJHR538/mqdefault_6s.webp?du=3000&sqp=COfG-v8F&rs=AOn4CLB5GhjqbSr_epeqtS1DhYgM492uQg"
+            image="https://i.ytimg.com/an_webp/F27-PJHR538/mqdefault_6s.webp?du=3000&sqp=CICV_f8F&rs=AOn4CLAAyRJO53SRWEj6Qcp3PAqI0aUCBg"
           />
           <VideoCard
             title="Full Screen Video Background Using HTML..."
@@ -44,7 +44,7 @@ function RecommendedVideos() {
             timestamp="8 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/ih7oILhf66U/mqdefault_6s.webp?du=3000&sqp=CMTE-v8F&rs=AOn4CLDcutu3LwgAcdaKA346rxdor7W-hA"
+            image="https://i.ytimg.com/an_webp/ih7oILhf66U/mqdefault_6s.webp?du=3000&sqp=CMey_f8F&rs=AOn4CLCSGyX2YxyWdj8me4CrGvtIPd-z9w"
           />
           <VideoCard
             title="2 Simple & Quickest Way to Center Text or DIV with..."
@@ -52,7 +52,7 @@ function RecommendedVideos() {
             timestamp="9 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/tduRRjViZT0/mqdefault_6s.webp?du=3000&sqp=CIG6-v8F&rs=AOn4CLBwy5V9GqYHLgLEE5sgBzkxai_-XA"
+            image="https://i.ytimg.com/an_webp/tduRRjViZT0/mqdefault_6s.webp?du=3000&sqp=CM-i_f8F&rs=AOn4CLDqXNPNYDsxAeV49y2wUjZHRCmJ4w"
           />
           <VideoCard
             title="PS5 : HOW TO DESIGN A PS5 CONTROLLER USING HTML..."
@@ -60,7 +60,7 @@ function RecommendedVideos() {
             timestamp="1 year ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/jPdWx862o9U/mqdefault_6s.webp?du=3000&sqp=CJq--v8F&rs=AOn4CLAJrZbWIT0JsXLmBZxf4FHsfcZubw"
+            image="https://i.ytimg.com/an_webp/jPdWx862o9U/mqdefault_6s.webp?du=3000&sqp=CNiK_f8F&rs=AOn4CLAHL0ndGAjjz9M8sNEzvG9YuTSXaQ"
           />
           <VideoCard
             title="Sticky Navigation Bar On Responsive Scroll with..."
@@ -68,7 +68,7 @@ function RecommendedVideos() {
             timestamp="3 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/Altx6NzYfhI/mqdefault_6s.webp?du=3000&sqp=CKjG-v8F&rs=AOn4CLA3rsCuZCdobhQYgMWBgdkq3I9Pfg"
+            image="https://i.ytimg.com/an_webp/Altx6NzYfhI/mqdefault_6s.webp?du=3000&sqp=CPSR_f8F&rs=AOn4CLB8hREEBoApFtmMlpBBoMTu3sDrKQ"
           />
           <VideoCard
             title="How Advanced Animated Navigation Menu Bar Are ..."
@@ -76,7 +76,7 @@ function RecommendedVideos() {
             timestamp="6 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/b_yDLHuxu-s/mqdefault_6s.webp?du=3000&sqp=CI29-v8F&rs=AOn4CLAXKQNzKQC6HRB_NOjyQrxYHKdjNA"
+            image="https://i.ytimg.com/an_webp/b_yDLHuxu-s/mqdefault_6s.webp?du=3000&sqp=CO-e_f8F&rs=AOn4CLDtFLXnLJLMA9ONCjGlTO1KTqSmFA"
           />
           <VideoCard
             title="How To Make Drop Down Menu Using HTML, CSS & ..."
@@ -84,7 +84,7 @@ function RecommendedVideos() {
             timestamp="7 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/F27-PJHR538/mqdefault_6s.webp?du=3000&sqp=COfG-v8F&rs=AOn4CLB5GhjqbSr_epeqtS1DhYgM492uQg"
+            image="https://i.ytimg.com/an_webp/F27-PJHR538/mqdefault_6s.webp?du=3000&sqp=CICV_f8F&rs=AOn4CLAAyRJO53SRWEj6Qcp3PAqI0aUCBg"
           />
           <VideoCard
             title="Full Screen Video Background Using HTML &..."
@@ -92,7 +92,7 @@ function RecommendedVideos() {
             timestamp="8 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/ih7oILhf66U/mqdefault_6s.webp?du=3000&sqp=CMTE-v8F&rs=AOn4CLDcutu3LwgAcdaKA346rxdor7W-hA"
+            image="https://i.ytimg.com/an_webp/ih7oILhf66U/mqdefault_6s.webp?du=3000&sqp=CMey_f8F&rs=AOn4CLCSGyX2YxyWdj8me4CrGvtIPd-z9w"
           />
           <VideoCard
             title="2 Simple & Quickest Way to Center Text or DIV with..."
@@ -100,7 +100,7 @@ function RecommendedVideos() {
             timestamp="9 months ago"
             channelImage="https://yt3.ggpht.com/ytc/AAUvwngY4rUgMvKwRdw_MmBQXvX_BEq8FGEx04_rQBQiXw=s48-c-k-c0xffffffff-no-rj-mo"
             channel="Jayprecode"
-            image="https://i.ytimg.com/an_webp/tduRRjViZT0/mqdefault_6s.webp?du=3000&sqp=CIG6-v8F&rs=AOn4CLBwy5V9GqYHLgLEE5sgBzkxai_-XA"
+            image="https://i.ytimg.com/an_webp/tduRRjViZT0/mqdefault_6s.webp?du=3000&sqp=CM-i_f8F&rs=AOn4CLDqXNPNYDsxAeV49y2wUjZHRCmJ4w"
           />
         </div>
       </div>
