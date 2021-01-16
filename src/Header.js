@@ -2,13 +2,13 @@ import React from "react";
 import "./Header.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
-import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationIcon from "@material-ui/icons/Notifications";
 import { Avatar } from "@material-ui/core";
 import MicIcon from "@material-ui/icons/Mic";
 import { makeStyles } from "@material-ui/core/styles";
 import CI from "./img/CI.png";
+import PublishIcon from "@material-ui/icons/Publish";
 
 function Header() {
   const useStyles = makeStyles({
@@ -140,13 +140,10 @@ function Header() {
           <MicIcon className={classes.mi} />
         </div>
         <div className="header__icons">
-          <VideoCallIcon className={classes.vci} />
+          <PublishIcon className={classes.vci} />
           <AppsIcon className={classes.ai} />
           <NotificationIcon className={classes.ni} />
-          <Avatar
-            alt="Jayprecode"
-            src={CI}
-            className={classes.small} />
+          <Avatar alt="Jayprecode" src={CI} className={classes.small} />
         </div>
       </div>
     </>
