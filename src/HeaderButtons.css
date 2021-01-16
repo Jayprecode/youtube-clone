@@ -1,0 +1,32 @@
+
+
+.recommendedVideoButtons {
+    border-top: 1px solid  rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.1);
+    height: 55px;
+    background-color: rgba(34, 34, 34, 0.93);
+    width: 82.3%;
+    position: fixed;
+    top: 56px;
+    left:17.7%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.recommendedVideoButtons > .btn {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(60, 60, 60, 0.7);
+    padding: 8px 13px;
+    margin: 7px;
+    border-radius: 25px;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 14px;
+    color: white;
+}
+.recommendedVideoButtons > .btn.selected {
+    background-color: #fff;
+    color: #000;
+    margin-left: 25px;
+}

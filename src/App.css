@@ -1,14 +1,3 @@
-
-.videos {
+.app_page {
   display: flex;
-  flex: 0.82;
-  width: 83.6%;
-  margin-top: 0;
-  margin-left: 16.4%;
-  backface-visibility: hidden;
-  will-change: overflow;
-
-}
-.side_bar {
-  position: fixed;
 }

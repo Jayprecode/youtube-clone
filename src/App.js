@@ -3,6 +3,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import RecommendedVideos from "./RecommendedVideos";
 import "./App.css";
+import HeaderButtons from "./HeaderButtons";
 
 
 function App() {
@@ -10,11 +11,10 @@ function App() {
     //BEM class naming convention
     <div className="app">
       <Header />
-      <div className="side_bar">
-        <Sidebar />
-      </div>
-      <div className="videos">
-        <RecommendedVideos />
+      <HeaderButtons />
+      <div className="app_page">
+          <Sidebar />
+          <RecommendedVideos />
       </div>
     </div>
   );

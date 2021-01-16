@@ -1,11 +1,16 @@
 .recommendedVideos {
-    flex: 1;
     flex-direction: column;
     background-color: #181818;
     padding-bottom: 0;
     padding-top: 80px;
     padding-left: 25px;
+    position: relative;
+    left: 17.7%;
+    width: 80.48%;
     height: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+    z-index: -1;
 }
 .recommendedVideos > h2 {
     margin-left: 5px;
