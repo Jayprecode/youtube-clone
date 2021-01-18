@@ -1,30 +1,51 @@
 .videoRow {
     display: flex;
     margin-bottom: 30px;
-    max-width: 700px;
+    max-width: 100%;
+    cursor: pointer;
+}
+.videoRow > .opt {
+    opacity: 0;
+}
+.videoRow:hover > .opt {
+    opacity: 10;
 }
 .videoRow > img {
+    width: 350px;
+    height: 218px;
     object-fit: contain;
-    width: 246px;
-    height: 138px;
 }
 .videoRow__text {
     margin-left: 14px;
+    margin-top: 12px;
 }
-.videoRow__description {
-    margin-top: 20px;
-    font-size: 12px;
-    color: #606060;
+.videoRow__text > h3 {
+    color: #EEEEEE;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 24px;
+    /* transform: scale(1, 1.0.5); */
+    font-weight: 400;
 }
 .videoRow__headline {
-    font-size: 12px;
-    color: #606060;
+    font-family: Roboto;
+    font-size: 13px;
+    color: #999999;
+    font-weight: 400;
 }
-.videoRow__subsNumber {
-    font-weight: bolder;
-    color: rgb(84, 157, 211);
+.videoRow__channel {
+    display: flex;
+    margin-top: 12px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 600;
+    align-items: center;
 }
-.videoRow__subs {
-    background-color: lightgray;
-    padding: 2px;
+.videoRow__description {
+    margin-top: 15px;
+    font-family: Roboto;
+    font-size: 13px;
+    color: #999999;
+    font-weight: 500;
 }

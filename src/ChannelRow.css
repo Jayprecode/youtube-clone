@@ -1,20 +1,29 @@
 .channelRow {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 98%;
 }
 .channelRow__text {
     display: flex;
     flex-direction: column;
 }
+.channelRow__text  > .channelRow__channel {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
 .channelRow__text > p {
-    color: #606060;
-    font-size: small !important;
+    font-family: Roboto;
+    color: #AAAAAA;
+    font-size: 13px !important;
+    font-weight: 400;
+    margin-bottom: 6px;
 }
 .channelRow__logo {
-    height: 120px !important;
-    width: 120px !important;
-    margin: 10px 60px;
+    height: 130px !important;
+    width: 130px !important;
+    margin: 10px 120px;
 }
 .channelRow__text > h4 {
     display: flex;
