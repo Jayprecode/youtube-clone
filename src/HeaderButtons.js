@@ -10,7 +10,8 @@ function HeaderButtons() {
             position: "absolute",
             left: "97%",
             color: "white",
-            zIndex: "100",
+            // @ts-ignore
+            zIndex: "10",
             top: "19px",
             fontSize:"10px",
         }

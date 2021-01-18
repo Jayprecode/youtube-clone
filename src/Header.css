@@ -27,15 +27,6 @@
         right: 52px;
     }
 }
-.country {
-    position: relative;
-    left: 2px;
-    bottom: 6px;
-    margin-right: -50px;
-    font-size: 9.5px;
-    font-weight: 500;
-    color: #8b8a8a;
-}
 .header__inputs {
     display: flex;
     align-items: center;
