@@ -1,5 +1,40 @@
 .searchPage {
+    flex-direction: column;
+    background-color: #181818;
+    padding-bottom: 0;
+    /* padding-top: 80px; */
+    padding-left: 25px;
     position: relative;
     left: 17.7%;
     width: 80.48%;
+    height: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+    z-index: -1;
+}
+.searchPage_box {
+    width: 97.5%;
+}
+.searchPage__filter {
+    display: flex;
+    align-items: center;
+    color: #a8a8a8;
+    font-size: xx-small !important;
+    margin-top: 15px;
+}
+.searchPage__filter:hover {
+    color: #fff !important;
+}
+.searchPage__filter > h2 {
+    margin-left: 8px;
+    color: #a8a8a8;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.searchPage > .searchPage_box hr {
+    height: 1px;
+    border: 0;
+    background-color:  rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
