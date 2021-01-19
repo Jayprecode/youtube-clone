@@ -3,21 +3,15 @@ import React from "react";
 import "./SearchPage.css";
 import CI from "./img/CI.png"
 import AL from "./img/AL.jpg"
+import NAV from "./img/NAV.jpg";
+import SVB from "./img/SVB.jpg";
+import CTX from "./img/CTX.jpg";
+import DDM from "./img/DDM.jpg";
+import PS5 from "./img/PS5.jpg";
 import ChannelRow from "./ChannelRow";
 import VideoRow from "./VideoRow";
-import MoreVert from "@material-ui/icons/MoreVert";
-import { Button } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 
 function SearchPage() {
-      const useStyles = makeStyles({
-        option: {
-          color: "#fff",
-          marginBottom: "175px",
-          cursor: "pointer",
-        },
-      });
-      const classes = useStyles();
     return (
       <div className="searchPage">
         <div className="searchPage_box">
@@ -34,42 +28,41 @@ function SearchPage() {
             no0fVideos={382}
             description={
               <p>
-                <span style={{ fontWeight: "500" }}>Jayprecode</span> is a
-                platform for learning various computer technologies and
+                <span
+                  style={{
+                    // @ts-ignore
+                    fontWeight: "500",
+                  }}
+                >
+                  Jayprecode
+                </span>{" "}
+                is a platform for learning various computer technologies and
                 programming languages. 100% FREE TIPS & TRICKS, ...
               </p>
             }
           />
           <VideoRow
             views="1.4M"
-            subs="659k"
             description="Do you want a FREE one hour training..check"
-            timestamp="59 seconds ago"
+            timestamp="1 week ago"
             channel="Jayprecode"
             channelImage={CI}
-            title="Animated Login Form Using HTML & CSS & JQuery - HOW TO Create an Awesome Animated Login Form in 2020"
-            image={AL}
-            option={
-              <Button className={classes.option}>
-                <MoreVert />
-              </Button>
-            }
+            title="PS5 : HOW TO DESIGN A PS5 CONTROLLER USING HTML & CSS -THE NEW DUALSENSE PLAYSTATION 5 CONTROLLER 🎮"
+            image={PS5}
           />
           <VideoRow
             views="1.4M"
-            subs="659k"
             description="Do you want a FREE one hour training..check"
-            timestamp="59 seconds ago"
+            timestamp="3 weeks ago"
             channelImage={CI}
             channel="Jayprecode"
-            title="Animated Login Form Using HTML & CSS & JQuery - HOW TO Create an Awesome Animated Login Form in 2020"
-            image={AL}
+            title="How Advanced Animated Navigation Menu Bar Are Created Using HTML, CSS & JAVASCRIPT"
+            image={NAV}
           />
           <VideoRow
             views="1.4M"
-            subs="659k"
             description="Do you want a FREE one hour training..check"
-            timestamp="59 seconds ago"
+            timestamp="1 month ago"
             channelImage={CI}
             channel="Jayprecode"
             title="Animated Login Form Using HTML & CSS & JQuery - HOW TO Create an Awesome Animated Login Form in 2020"
@@ -77,33 +70,30 @@ function SearchPage() {
           />
           <VideoRow
             views="1.4M"
-            subs="659k"
             description="Do you want a FREE one hour training..check"
-            timestamp="59 seconds ago"
+            timestamp="1 month ago"
             channelImage={CI}
             channel="Jayprecode"
-            title="Animated Login Form Using HTML & CSS & JQuery - HOW TO Create an Awesome Animated Login Form in 2020"
-            image={AL}
+            title="2 Simple & Quickest Way to Center Text or DIV with CSS In 2020 For Beginners - CSS Center text"
+            image={CTX}
           />
           <VideoRow
             views="1.4M"
-            subs="659k"
             description="Do you want a FREE one hour training..check"
-            timestamp="59 seconds ago"
+            timestamp="2 month ago"
             channelImage={CI}
             channel="Jayprecode"
-            title="Animated Login Form Using HTML & CSS & JQuery - HOW TO Create an Awesome Animated Login Form in 2020"
-            image={AL}
+            title="How To Make Drop Down Menu Using HTML, CSS & JS For Absolute beginner"
+            image={DDM}
           />
           <VideoRow
             views="1.4M"
-            subs="659k"
             description="Do you want a FREE one hour training..check"
-            timestamp="59 seconds ago"
+            timestamp="2 month ago"
             channelImage={CI}
             channel="Jayprecode"
-            title="Animated Login Form Using HTML & CSS & JQuery - HOW TO Create an Awesome Animated Login Form in 2020"
-            image={AL}
+            title="Full Screen Video Background Using HTML & CSS | How To Add a Video Background With HTML & CSS"
+            image={SVB}
           />
         </div>
       </div>

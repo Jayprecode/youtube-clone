@@ -2,13 +2,6 @@
     display: flex;
     margin-bottom: 30px;
     max-width: 100%;
-    cursor: pointer;
-}
-.videoRow > .opt {
-    opacity: 0;
-}
-.videoRow:hover > .opt {
-    opacity: 10;
 }
 .videoRow > img {
     width: 350px;

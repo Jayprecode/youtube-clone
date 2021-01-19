@@ -11,56 +11,26 @@ function Sidebar() {
         
     return (
       <div className="sidebar">
-        <SidebarRow selected Icon={HomeIcon} title="Home" />
-        <
-// @ts-ignore
-        SidebarRow Icon={Whatshot} title="Trending" />
-        <
-// @ts-ignore
-        SidebarRow Icon={Subscriptions} title="Subscriptions" />
+        <SidebarRow Icon={HomeIcon} title="Home" />
+        <SidebarRow Icon={Whatshot} title="Trending" />
+        <SidebarRow Icon={Subscriptions} title="Subscriptions" />
         <hr />
-        <
-// @ts-ignore
-        SidebarRow Icon={VideoLibrary} title="Library" />
-        <
-// @ts-ignore
-        SidebarRow Icon={History} title="History" />
-        <
-// @ts-ignore
-        SidebarRow Icon={OndemandVideo} title="Your videos" />
-        <
-// @ts-ignore
-        SidebarRow Icon={WatchLater} title="Watch later" />
-        <
-// @ts-ignore
-        SidebarRow Icon={ThumbUpAltOutlined} title="Liked videos" />
-        <
-// @ts-ignore
-        SidebarRow Icon={ExpandMoreOutlined} title="Show more" />
+        <SidebarRow Icon={VideoLibrary} title="Library" />
+        <SidebarRow Icon={History} title="History" />
+        <SidebarRow Icon={OndemandVideo} title="Your videos" />
+        <SidebarRow Icon={WatchLater} title="Watch later" />
+        <SidebarRow Icon={ThumbUpAltOutlined} title="Liked videos" />
+        <SidebarRow Icon={ExpandMoreOutlined} title="Show more" />
         <hr />
         <h4>MORE FROM YOUTUBE</h4>
-        <
-// @ts-ignore
-        SidebarRow Icon={YouTube} title="YouTube Premium" />
-        <
-// @ts-ignore
-        SidebarRow Icon={VideogameAsset} title="Gaming" />
-        <
-// @ts-ignore
-        SidebarRow Icon={WifiTethering} title="Live" />
+        <SidebarRow Icon={YouTube} title="YouTube Premium" />
+        <SidebarRow Icon={VideogameAsset} title="Gaming" />
+        <SidebarRow Icon={WifiTethering} title="Live" />
         <hr />
-        <
-// @ts-ignore
-        SidebarRow Icon={Settings} title="Settings" />
-        <
-// @ts-ignore
-        SidebarRow Icon={Flag} title="Report history" />
-        <
-// @ts-ignore
-        SidebarRow Icon={Help} title="Help" />
-        <
-// @ts-ignore
-        SidebarRow Icon={Feedback} title="Send feedback" />
+        <SidebarRow Icon={Settings} title="Settings" />
+        <SidebarRow Icon={Flag} title="Report history" />
+        <SidebarRow Icon={Help} title="Help" />
+        <SidebarRow Icon={Feedback} title="Send feedback" />
         <hr />
         <div className="sidebar__footer1">
           <Link className="link">About</Link>

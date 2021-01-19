@@ -1,12 +1,11 @@
 import React from "react";
 import "./VideoRow.css";
-
 import { Avatar} from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 
 
-function VideoRow({ views, description, timestamp,channelImage, channel, title, image, option }) {
+function VideoRow({ views, description, timestamp,channelImage, channel, title, image}) {
     const useStyles = makeStyles({
       small: {
         marginRight: "8px",
@@ -34,10 +33,6 @@ function VideoRow({ views, description, timestamp,channelImage, channel, title, 
         </p>
         <p className="videoRow__description"> {description}</p>
       </div>
-      <div className="opt">
-        {option}
-      </div>
-
     </div>
   );
 }
