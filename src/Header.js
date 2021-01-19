@@ -8,7 +8,7 @@ import { Avatar } from "@material-ui/core";
 import MicIcon from "@material-ui/icons/Mic";
 import { makeStyles } from "@material-ui/core/styles";
 import CI from "./img/CI.png";
-import PublishIcon from "@material-ui/icons/Publish";
+import VideoCallIcon from "@material-ui/icons/VideoCall";
 import { Link } from "react-router-dom";
 
 
@@ -170,7 +170,7 @@ function Header() {
           <MicIcon className={classes.mi} />
         </div>
         <div className="header__icons">
-          <PublishIcon className={classes.vci} />
+          <VideoCallIcon className={classes.vci} />
           <AppsIcon className={classes.ai} />
           <NotificationIcon className={classes.ni} />
           <Avatar alt="Jayprecode" src={CI} className={classes.small} />
